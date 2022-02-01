@@ -31,5 +31,3 @@ document.onclick = () => {
         };
     });  if (numb==0) {popup.classList.remove("popup_active")}
 };
-// let bg = document.getElementsByTagName("body");
-// bg.onclick = () => {popup.classList.remove("popup_active")}
