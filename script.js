@@ -23,7 +23,7 @@ const showPopup =  function(text){
 popupClose.addEventListener("click", closePopup);
 const body = document.querySelector("body");
 
-body.onclick = () => {
+document.onclick = () => {
     let divs = document.querySelectorAll("div");
     let numb = 0;
     divs.forEach(function(e) {
@@ -31,3 +31,5 @@ body.onclick = () => {
         };
     });  if (numb==0) {popup.classList.remove("popup_active")}
 };
+// let bg = document.getElementsByTagName("body");
+// bg.onclick = () => {popup.classList.remove("popup_active")}
